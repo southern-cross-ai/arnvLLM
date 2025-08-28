@@ -110,7 +110,7 @@ The frontend communicates with the backend via **HTTP requests** to these endpoi
 
 ## 6. Backend Interaction Flow
 
-```mermaid
+```
 flowchart LR
   A[User Input] --> B[Frontend Home Component]
   B --> |Chat Message| C[/api/chat POST]
